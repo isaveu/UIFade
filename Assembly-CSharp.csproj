@@ -55,6 +55,7 @@
      <Compile Include="Assets\scripts\FadeImage.cs" />
      <Compile Include="Assets\scripts\IFade.cs" />
      <Compile Include="Assets\scripts\UIFadeCtrl.cs" />
+     <None Include="Assets\materials\UIFadeShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity3d/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
