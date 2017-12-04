@@ -51,11 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\Fade.cs" />
-     <Compile Include="Assets\scripts\FadeImage.cs" />
-     <Compile Include="Assets\scripts\IFade.cs" />
-     <Compile Include="Assets\scripts\UIFadeCtrl.cs" />
-     <None Include="Assets\materials\UIFadeShader.shader" />
+     <Compile Include="Assets\Fade\Samples\FadeTest.cs" />
+     <Compile Include="Assets\Fade\Scripts\Fade.cs" />
+     <Compile Include="Assets\Fade\Scripts\FadeImage.cs" />
+     <Compile Include="Assets\Fade\Scripts\FadeUI.cs" />
+     <Compile Include="Assets\Fade\Scripts\IFade.cs" />
+     <Compile Include="Assets\MyTest\Scripts\MyFadeTest.cs" />
+     <None Include="Assets\Fade\Materials\UI-Fade-Alpha.shader" />
+     <None Include="Assets\Fade\Materials\UI-Fade-Cutout.shader" />
+     <None Include="Assets\MyTest\Materials\My_UI_Fade_Alpha.shader" />
+     <None Include="Assets\Fade\Materials\UI-Mask.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity3d/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
